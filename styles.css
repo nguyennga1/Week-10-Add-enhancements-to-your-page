@@ -1,0 +1,184 @@
+body{
+ background-color: #eee;
+ margin: 0;
+ padding: 0;
+ font-family:'Roboto',sans-serif;
+ font-weight: 300;
+ display: block;
+}
+#wrapper {
+ width: 80%;
+ margin-left: auto;
+ margin-right: auto;
+ position: relative;
+ background-color: #fff ;
+}
+#div {
+    display: block;
+}
+#wrapper h1 {
+ text-align: center;
+ text-transform: uppercase;
+ font-size: 3em;
+ font-style: normal;
+ color: pink;
+ margin: 0;
+ padding: 30px 0 10px 0 ;
+}
+#mainnav ul {
+margin: 0;
+ padding: 0;
+ width: 100%;
+ height: 45px;
+ display: block;
+ list-style-type: 1em;
+ margin-block-start: 1em;
+ margin-inline-start: 0;
+ margin-inline-end: 0;
+}
+#wrapper #mainnav ul li {
+    text-transform: uppercase;
+    list-style: none;
+    font-size: .8em ;
+}
+li {
+    display: list-item;
+    text-align: webkit-satch-parent;
+}
+ul {
+    list-style-type: disc;
+}
+ #mainnav ul li a {
+ background-color: pink ;
+ display: block;
+ float: left;
+ padding: .5em 0px;
+ line-height: 3em;
+ text-decoration: none;
+ color: #eee;
+ width: 22.5%;
+ text-align: center;
+ text-transform: uppercase;
+ list-style: none;
+ cursor: pointer;
+}
+#wrapper article {
+ position: absolute;
+ width: 350px;
+ top: 9%;
+ right: 113px;
+ background-color:aliceblue;
+ color: pink;
+ padding: 9px;
+ border-radius: 20px ;
+ font-size: .8em;
+}
+#wrapper article h2{
+    margin: .2em;
+}
+#wrapper main {
+    width: 48%;
+    float: left;
+    margin-right: 2%;
+    padding: 3%;
+    box-sizing: border-box
+}
+main h2, aside h2 {
+    color: hotpink;
+    font-weight: 500;
+}
+main img, aside img{
+width: 90%;
+border: 1px solid pink;
+padding: 25px;
+box-sizing: border-box;
+}
+#wrapper footer{
+    clear: both;
+}
+footer {
+    height: 50px;
+    background-color: pink;
+    color: hotpink;
+    line-height: 3em;
+    padding-left: 10px;
+    display: block;
+    text-align: center;
+}
+#wrapper aside {
+    width: 50%;
+    float: left;
+    padding: 3%;
+    box-sizing: border-box;
+}
+{box-sizing: border-box;}
+div.container {
+    width: 80%;
+    border: 1px solid pink;
+	margin: 0 auto;
+}
+
+header, footer {
+    padding-top: 1em;
+    color: white;
+    background-color:pink;
+    clear: left;
+    text-align: center;
+}
+
+nav {
+    background-color: pink;
+	padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+	margin: 0;
+	overflow: hidden;
+	background-color: pink;
+	}
+	
+
+nav ul{
+    list-style-type: none;
+    padding: 0;
+	margin: 0;
+	background-color: pink;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+	
+nav ul li{
+	float: left;
+	width: 25%;
+	}
+	
+ ul a {
+    text-decoration: none;
+	color: #fff;
+}
+
+article {
+	width: 100%;
+    border-left: 1px solid pink;
+    padding: 1em;
+    overflow: hidden;
+}
+div.main{
+		
+	}
+	.slideshow{
+		margin-top: 30px;
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: space-around;
+	}
+	.slideshow a{
+		flex-basis: auto;
+	}
+    .cycle-slideshow img{
+		width: 100%;
+	}
